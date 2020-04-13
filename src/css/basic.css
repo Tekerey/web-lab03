@@ -1,0 +1,64 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center-block {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+    margin-top: 25px;
+    border-radius: 20px;
+}
+
+.menu :first-child {
+    border-radius: 20px 0px 0px 20px;
+}
+
+.menu :last-child {
+    border-radius: 0px 20px 20px 0px;
+}
+
+.menu-button {
+    padding: 10px;
+    border: 0px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.menu-button:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+.menu-button:active {
+    background-color: cornsilk;
+}
+
+.menu-button.active {
+    background-color: cornsilk;
+}
+
+#content-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#content {
+    text-align: center;
+}
+
+#playAgaingButton {
+    padding: 10px;
+    margin-bottom: 100px;
+    font-size: 16px;
+}
